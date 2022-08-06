@@ -1,0 +1,215 @@
+
+.body{
+	background: #1c1c1c;
+	border: 1px solid black;
+
+}
+
+.logo{
+	margin: auto;
+	float: left;
+
+}
+
+.logo2{
+	margin: auto;
+	float: left;
+	width: 30%;
+
+}
+
+.header{
+	text-align: center;
+	margin-left: 250px;
+	margin-right: 150px;
+	font-family: Ink Free;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	background: black;
+	border: 1px solid black;
+	padding: 60px;
+} 
+
+.header2{
+	text-align: center;
+	font-family: Ink Free;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background: black;
+	border: 1px solid black;
+	padding: 20px;
+} 
+
+.imagenes{
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.menu{
+	text-align: center;
+	font-family: Ink Free;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+}
+
+
+.carta{
+
+	float: left;
+	margin-left: 140px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	font-family: Ink Free;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 1px solid black;
+	padding: 15px;
+} 
+
+.carta2{
+	width: 50%;
+	margin-left: 35%;
+	font-family: Ink Free;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 1px solid black;
+	padding: 15px;
+
+} 
+
+.titulo2{
+	
+	margin: auto;
+	font-family: Ink Free;
+	font-size: 30px;
+	font-weight: bold;
+	color: darkred;
+	background: white;
+	padding: 15px;
+} 
+
+.precio{
+	
+	font-family: Ink Free;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	
+	padding: 15px;
+	text-align: right;
+} 
+
+.lista{
+	
+	font-family: Ink Free;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	
+
+} 
+
+.pie{
+	clear: both;
+	display: block;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-family: Ink Free;
+	font-weight: bold;
+	background: #ff5757;
+	border: 1px solid black;
+	padding: 5px;
+	
+}
+
+.titulo{
+	clear: both;
+	display: block;
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	font-family: Ink Free;
+	font-weight: bold;
+	background: #ff5757;
+	border: 1px solid black;
+	padding: 10px;
+	
+}
+
+.formulario{
+	float: right;
+	width: auto;
+	/*margin-left: 35%;
+	margin-right: 10%;*/
+	text-align: left;
+	color: white;
+	font-size: 25px;
+	font-family: Ink Free;
+	font-weight: bold;
+	background: #1c1c1c;
+	border: 1px solid black;
+	padding: 10px;
+	
+}
+
+.rigth{
+
+	float: right;
+	font-size: 25px;
+	font-family: Ink Free;
+}
+
+.boton{
+
+	float: center;
+	font-size: 25px;
+	font-family: Ink Free;
+}
+
+.box{
+	transform: scale(4);
+	color: white;
+	font-size: 25px;
+	font-family: Ink Free;
+	font-weight: bold;
+}
+
+.borde1{
+	float: left;
+	margin-left: 5%;
+	/*margin-right: 10%;*/
+	color: white;
+	font-size: 25px;
+	font-family: Ink Free;
+	font-weight: bold;
+	background: #1c1c1c;
+	border: 1px solid black;
+	padding: 40px;
+	
+}
+
+.borde2{
+	float: right;
+	/*margin-left: 15%;*/
+	margin-right: 10%;
+	color: white;
+	font-size: 25px;
+	font-family: Ink Free;
+	font-weight: bold;
+	background: #1c1c1c;
+	
+	/*padding: 10px;*/
+	
+}

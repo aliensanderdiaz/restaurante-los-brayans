@@ -1,0 +1,157 @@
+<!--
+   index.html
+   
+-->
+
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+<head>
+   
+      <title>Los Brayans</title>
+
+      <meta name="author" content="Mision TIC 2022 Ciclo 3 Grupo4"/>
+      <meta charset="utf-8"/>
+      <script src="js/jquery-1.9.1.js"></script>
+      <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+</head>
+
+<body class="body">
+   <div class ="titulo">
+      Restaurante Los Brayans
+   </div>
+   <br>
+   <div>          
+      <header>
+         <div class="logo">
+            <img src="imagenes/Logo_restaurante.png" width="200" height="170">
+
+         </div>
+
+         <div class="header">
+            <a href="brayans.html" style="color: white">Menú</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+            <a href="promociones.html"style="color: white">Promociones</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="reservaciones.html"style="color: white">Reservaciones</a>
+         </div>  
+
+      </header>
+      <br>
+
+   
+      <nav class="menu">
+         Reservaciones
+      </nav>
+      <br>
+
+      <section class="borde1">
+         <div>
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br><br>
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br><br>
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br><br>
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br><br>
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br><br>
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br><br>
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" class="box" name="Mesa 1" >
+            &nbsp;&nbsp;Mesa 21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+
+
+         </div>
+       
+         
+
+      </section>
+
+     
+      <section class="borde2">
+         <form class="formulario">
+            <br>
+            Nombres: &nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rigth" type="text" placeholder="Nombres">
+            <br><br>
+            Apellidos:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rigth" type="text" placeholder="Apellidos">
+            <br><br>
+            Dirección:&nbsp;&nbsp;
+            <input class="rigth" type="text" placeholder="Dirección">
+            <br><br>
+            Teléfono:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rigth" type="tel" placeholder="Teléfono">
+            <br><br>
+            Email:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rigth" type="email" placeholder="Email">
+            <br><br>
+            Evento:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rigth" type="text" placeholder="Evento">
+            <br><br>
+            Personas:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rigth" type="text" placeholder="Personas">
+            <br><br>
+            Fecha:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rigth" type="date" placeholder="Fecha">
+            <br><br>
+            Hora:&nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="rigth" type="time" placeholder="Hora">
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button  class="boton" v-if="!is_auth" v-on:click="loadSignUp">Reservar </button>
+         </form>
+      </section>
+      <br><br>
+
+
+
+      
+      <footer>
+         <div class="pie">
+           <br> Creado como proyecto Ciclo 3, Misión TIC. 2022
+         </div>
+      </footer>
+
+   </div>
+
+
+</body>
